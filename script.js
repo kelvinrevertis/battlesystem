@@ -5,6 +5,7 @@ const initialStatus = [{str: 1,def: 1,hp: 5}]
 const showStatus =()=>{
 
     console.log(initialStatus)
+    console.log("Teste")
     
 }
 
