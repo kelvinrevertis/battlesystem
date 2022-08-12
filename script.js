@@ -20,9 +20,11 @@ const upAtack = (status) => {
     status = status+1
     console.log(status)
 }
+levelUp.addEventListener('click', event =>{
+    event.preventDefault()
 
-
-upAtack(atack)
+    upAtack(atack)
+})
 //console.log(upStatus)
 
 var showStatus = 'força: ' + atackplus
