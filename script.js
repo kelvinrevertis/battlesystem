@@ -19,7 +19,10 @@ const upLevel = (stats) => {
 const upAtack = (status) => {
     status = status+1
     console.log(status)
+    var who  =  status +1
+    console.log(who)
 }
+
 levelUp.addEventListener('click', event =>{
     event.preventDefault()
 
