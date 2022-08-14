@@ -1,5 +1,4 @@
 const insideNumber = document.getElementById("number").value = 0
-
 var num = insideNumber
 
 
