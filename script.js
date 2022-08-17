@@ -15,10 +15,12 @@ function levelUP(){
 
 const showHero = () => {
     var showStatus =  "força:" +atackStats+" defesa:"+ defStats+" Vida:"+hpStats
-    levelUP()
     const combat = document.createElement('li')
-    combat.innerHTML = `${inputHero.value} com status ${showStatus}`
+    combat.setAttribute("type","none")
+    combat.innerHTML = `Heroi ${inputHero.value} com status ${showStatus}`
     console.log(combat)
+    combatLog.appendChild(combat)
+
 
 }
 
